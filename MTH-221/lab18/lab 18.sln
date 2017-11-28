@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab 18", "lab 18\lab 18.vcxproj", "{6B68451C-15CF-4382-99B3-D0F29971D8BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B68451C-15CF-4382-99B3-D0F29971D8BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6B68451C-15CF-4382-99B3-D0F29971D8BC}.Debug|Win32.Build.0 = Debug|Win32
+		{6B68451C-15CF-4382-99B3-D0F29971D8BC}.Release|Win32.ActiveCfg = Release|Win32
+		{6B68451C-15CF-4382-99B3-D0F29971D8BC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
