@@ -15,7 +15,6 @@ for line in FilePeople:lines() do
 	end
 end;
 
-
 battle={};
 FileAdventure = io.open("adventure.data");
 
@@ -35,8 +34,6 @@ for line in FileAdventure.lines() do
 		
 	end
 end
-
-
 
 function parseline(str)
 
@@ -124,10 +121,6 @@ function parseline(str)
 		return;
 	end
 
-
-
-
-
 	name, attribute = string.match(str, "^What is (.+)'s (.+)%?$");
  	if (attribute ~= nil) then
 		whom = people[name]
@@ -172,8 +165,7 @@ function parseline(str)
 		end
 	  return;
 	end
-
+		
 end
-
 
 end
