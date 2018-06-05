@@ -74,7 +74,7 @@ void LinkedList::insert(ItemType insertData)
             head = parent;
         }
         else if (insertPtr->data == insertNode)  // This case checks for duplicate 
-		{
+	{
             // Set insertPtr to a new node then set the new node to null
             // then you push the data from insertData to insertPtr
             // this will override data in insertPtr with the data in
@@ -83,7 +83,7 @@ void LinkedList::insert(ItemType insertData)
 
             return;
         }
-		else
+	else
         {
             parent->next = new LLNode;
             parent = parent->next;
